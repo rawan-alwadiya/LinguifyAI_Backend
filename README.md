@@ -31,3 +31,18 @@ LinguifyAI Backend is the AI-powered backend for the LinguifyAI language learnin
 - Pydantic (Data validation & serialization)
 - NLTK (Sentence tokenization)
 - Pandas (Data handling for grammar quiz)
+
+## Installation & Setup
+
+### Prerequisites
+- *Python 3.8+* installed  
+- *Virtual environment* (recommended)  
+- *Required AI Models:*  
+  - *GPT-Neo (EleutherAI/gpt-neo-1.3B)*: Generates chatbot responses  
+  - *Sentence-BERT (paraphrase-MiniLM-L6-v2)*: Ensures semantic relevance in conversations  
+  - *T5-based Grammar Correction Model (Gramformer)*: Fixes grammatical errors  
+  - *Fine-tuned T5 Summarization Model*: Generates concise summaries  
+- *FastAPI* for backend API development
+
+### Related Project  
+LinguifyAI Backend powers the **[LinguifyAI](https://github.com/rawan-alwadiya/LinguifyAI)** mobile application. Ensure the app is set up to connect with this backend for full functionality.
